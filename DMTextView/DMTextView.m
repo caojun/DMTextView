@@ -48,7 +48,10 @@
         UILabel *label = [[UILabel alloc] init];
         _m_placeholderLabel = label;
         
-        label.textColor = [UIColor lightGrayColor];
+        CGFloat red = 217/255.0;
+        CGFloat green = 217/255.0;
+        CGFloat blue = 222/255.0;
+        label.textColor = [UIColor colorWithRed:red green:green blue:blue alpha:1];
         label.numberOfLines = 0;
         label.userInteractionEnabled = NO;
         label.font = self.font; //获取当前font

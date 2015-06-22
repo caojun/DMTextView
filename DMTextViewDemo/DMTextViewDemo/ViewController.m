@@ -33,7 +33,7 @@
     textView.layer.borderColor = [UIColor grayColor].CGColor;
     textView.layer.borderWidth = 0.5;
     
-    textView.placeholderColor = [UIColor redColor];
+//    textView.placeholderColor = [UIColor redColor];
     textView.font = [UIFont systemFontOfSize:20];
 }
 
