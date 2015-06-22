@@ -19,8 +19,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    
     CGRect frame = [UIScreen mainScreen].bounds;
-    frame.origin.y = 20;
+    frame.origin.y = 0;
     frame.origin.x = 20;
     frame.size.width -= frame.origin.x * 2;
     frame.size.height = 80;

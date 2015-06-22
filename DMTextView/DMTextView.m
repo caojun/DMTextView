@@ -34,6 +34,11 @@
 
 @implementation DMTextView
 
+- (void)dealloc
+{
+    [self observeRemove];
+}
+
 #pragma mark - setter / getter
 
 - (UILabel *)m_placeholderLabel
