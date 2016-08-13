@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "DMTextView"
   s.version      = "0.0.3"
-  s.summary      = ""
+  s.summary      = "文本编辑控件"
 
   s.description  = <<-DESC
                    A longer description of DMTextView in Markdown format.
